@@ -9,5 +9,5 @@
 
 ## 3、Controller获取参数方法
 
-## 4、<span style="color: red">idea部署项目的时候需要在Artifacts中项目的WEB-INF下新增lib目录（如果没有就要新增），然后将jar包添加进去；特别是在Controller的方法中返回json数据时，如果如果没有把jackson的jar包添加进来就会，请求会报错，错误码：415</span>
+## 4、<span style="color: red">idea部署项目的时候需要在Artifacts中项目的WEB-INF下新增lib目录（如果没有就要新增），然后将jar包添加进去；特别是在Controller的方法上使用@ResponseBody注解返回json数据时，如果如果没有把jackson的jar包添加进来就会，请求会报错，错误码：415</span>
 
