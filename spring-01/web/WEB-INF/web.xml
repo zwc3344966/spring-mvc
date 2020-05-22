@@ -7,11 +7,11 @@
     <servlet>
         <servlet-name>springmvc</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <!--DispatcherServlet要绑定的Spring配置文件-->
-        <init-param>
+        <!--DispatcherServlet要绑定的Spring配置文件,如果放在Resources目录下，就需要用下面这种方式引入；如果放在WEB-INF目录下则只要<servlet-name>-servlet.xml这种方式命名即可-->
+        <!--<init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:springmvc-servlet.xml</param-value>
-        </init-param>
+        </init-param>-->
         <!--启动级别-->
         <load-on-startup>1</load-on-startup>
     </servlet>

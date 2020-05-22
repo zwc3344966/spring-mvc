@@ -11,6 +11,11 @@
     <title>SpringMVC学习</title>
   </head>
   <body>
-  这是SpringMVC学习项目
+  <%--<form action="${pageContext.request.contextPath}/hello4" method="POST">
+    <input type="text" name="id"/>
+    <input type="text" name="name"/>
+    <input type="text" name="age"/>
+    <input type="submit" value="提交">
+  </form>--%>
   </body>
 </html>
